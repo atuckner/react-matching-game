@@ -9,13 +9,22 @@ class Board extends React.Component {
           <Card/>
           <Card/>
           <Card/>
+          <Card/>
+        </div>
+        <div>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
         </div>
         <div>
           <Card/>
           <Card/>
           <Card/>
+          <Card/>
         </div>
         <div>
+          <Card/>
           <Card/>
           <Card/>
           <Card/>
