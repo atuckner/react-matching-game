@@ -6,7 +6,10 @@
   display: inline-block;
   border-radius: 5px;
   border: 3px solid #e1e9f1;
-  /*background::hover: #d2d8de;*/
+}
+
+.Card:hover {
+  background: #d2d8de;
 }
 
 .Card-icon {
