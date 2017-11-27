@@ -4,9 +4,9 @@ import Card from './Card';
 class Board extends React.Component {
   renderCard(i) {
     const card = this.props.cards[i]
-    console.log('card number: ', i)
     return (
       <Card
+        value={i}
         icon={card.icon}
         selected={card.selected}
         matched={card.matched}

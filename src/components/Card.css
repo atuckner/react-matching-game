@@ -1,11 +1,19 @@
 .Card {
   height: 100px;
   width: 100px;
-  background: aliceblue;
   margin: 10px;
   display: inline-block;
   border-radius: 5px;
+}
+
+.Card-selected {
+  background: aliceblue;
   border: 3px solid #e1e9f1;
+}
+
+.Card-unselected {
+  background: white;
+  border: 3px solid #f3f3f3;
 }
 
 .Card:hover {
@@ -15,4 +23,10 @@
 .Card-icon {
   margin-top: 26px;
   color: #42474c;
+}
+
+.Card-icon-unselected {
+  margin-top: 26px;
+  color: white;
+  outline: none;
 }

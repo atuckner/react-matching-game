@@ -9,24 +9,9 @@ import Board from './Board';
 import shuffleArray from '../utils/shuffle';
 
 class Game extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      cards: this.generateCards()
-    }
-  }
-
-  generateCards() {
-    let cards = ['sun-o', 'tree', 'leaf', 'key', 'globe', 'flash', 'anchor', 'camera-retro'].reduce((result, current) => {
-      return result.concat([{icon: current, selected: false, matched: false}, {icon: current, selected: false, matched: false}]);
-    }, []);
-
-    return shuffleArray(cards)
-  }
-
   render() {
     return(
-      <Board selectCard={this.props.actions.selectCard} cards={this.state.cards}/>
+      <Board selectCard={this.props.actions.selectCard} cards={this.props.cards}/>
     )
   }
 }
