@@ -17,8 +17,8 @@ class Card extends React.Component {
 
     if (props.matched === true) { cardStatus = 'Card-matched' }
 
-    const cardFaceIcon = props.selected ? 'Card-icon-show' : 'Card-icon-hide';
-    const cardBackIcon = props.selected ? 'Card-icon-hide' : 'Card-icon-show';
+    const cardFaceIcon = props.selected || props.matched ? 'Card-icon-show' : 'Card-icon-hide';
+    const cardBackIcon = props.selected || props.matched ? 'Card-icon-hide' : 'Card-icon-show';
 
     return (
       <div className={`Card ${cardStatus}`} onClick={(e) => this.onClick()}>

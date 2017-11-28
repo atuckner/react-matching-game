@@ -1,13 +1,18 @@
-export const addGuess = () => {
-  console.log('increment guesses');
+export const selectCard = (card) => {
   return {
-    type: 'ADD_GUESS'
+    type: 'SELECT_CARD',
+    card
   }
 }
 
-export const addMatch = () => {
-  console.log('increment matches');
+export const resetSelectedCards = () => {
   return {
-    type: 'ADD_MATCH'
+    type: 'RESET_SELECTED_CARDS'
+  }
+}
+
+export const addGuess = () => {
+  return {
+    type: 'ADD_GUESS'
   }
 }

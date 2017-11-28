@@ -1,6 +1,6 @@
 import { createStore } from 'redux';
-import rootReducer from './reducers/root_reducer';
+import gameReducer from './reducers/game_reducer';
 
 export default (initialState) => {
-  return createStore(rootReducer, initialState);
+  return createStore(gameReducer, initialState);
 }

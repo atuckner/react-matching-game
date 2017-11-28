@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import * as cardActions from '../actions/cards';
 import * as gameActions from '../actions/game';
 
 import Board from './Board';
@@ -25,7 +24,7 @@ function mapStateToProps(state, props) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    actions: bindActionCreators(Object.assign({}, gameActions, cardActions), dispatch)
+    actions: bindActionCreators(Object.assign({}, gameActions), dispatch)
   }
 }
 
