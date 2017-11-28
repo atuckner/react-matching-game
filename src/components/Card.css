@@ -4,6 +4,11 @@
   margin: 10px;
   display: inline-block;
   border-radius: 5px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
 }
 
 .Card-selected {
@@ -28,4 +33,19 @@
 .Card-icon {
   margin-top: 26px;
   color: #42474c;
+  position: absolute;
+  right: 0;
+  left: 0;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.Card-icon-show {
+  opacity: 1;
+}
+
+.Card-icon-hide {
+  opacity: 0;
 }
