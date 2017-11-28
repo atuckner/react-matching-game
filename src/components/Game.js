@@ -11,14 +11,15 @@ import shuffleArray from '../utils/shuffle';
 class Game extends React.Component {
   render() {
     return(
-      <Board selectCard={this.props.actions.selectCard} cards={this.props.cards}/>
+      <Board selectCard={this.props.actions.selectCard} addGuess={this.props.actions.addGuess} cards={this.props.cards} game={this.props.game}/>
     )
   }
 }
 
 function mapStateToProps(state, props) {
   return {
-    cards: state.cards
+    cards: state.cards,
+    game: state.game
   }
 }
 

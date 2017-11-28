@@ -18,7 +18,8 @@ function generateCards() {
 }
 
 const initialState = {
-  cards: generateCards()
+  cards: generateCards(),
+  game: {guesses: 0, matches: 0}
 };
 
 const AppStore = Store(initialState);

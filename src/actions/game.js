@@ -1,6 +1,13 @@
-export const incrementMoves = () => {
-  console.log('increment moves');
+export const addGuess = () => {
+  console.log('increment guesses');
   return {
-    type: 'INCREMENT_MOVES'
+    type: 'ADD_GUESS'
+  }
+}
+
+export const addMatch = () => {
+  console.log('increment matches');
+  return {
+    type: 'ADD_MATCH'
   }
 }
