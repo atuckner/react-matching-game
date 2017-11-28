@@ -16,6 +16,11 @@
   border: 3px solid #f3f3f3;
 }
 
+.Card-matched {
+  background: #fffdf0;
+  border: 3px solid #f1f1e1;
+}
+
 .Card:hover {
   background: #d2d8de;
 }
@@ -23,10 +28,4 @@
 .Card-icon {
   margin-top: 26px;
   color: #42474c;
-}
-
-.Card-icon-unselected {
-  margin-top: 26px;
-  color: white;
-  outline: none;
 }
