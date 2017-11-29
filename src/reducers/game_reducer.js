@@ -33,17 +33,24 @@ export default(state=null, payload) => {
         })
         return {...state, game: {guesses: state.game.guesses, matches: state.game.matches + 1}, cards: cards}
       } else {
-        const unselect = {selected: false}
-        const resetCards = cards.map((item, index) => {
-          if (item.selected === true && index !== payload.card) {
-            return {
-              ...item,
-              ...unselect
+        const amountSelected = cards.filter((current, index) => {
+          return current.selected === true;
+        }).length
+
+        if (amountSelected > 2) {
+          const unselect = {selected: false}
+          const resetCards = cards.map((item, index) => {
+            if (item.selected === true && index !== payload.card) {
+              return {
+                ...item,
+                ...unselect
+              }
             }
-          }
-          return item;
-        }) 
-        return {...state, cards: resetCards}
+            return item;
+          })
+          return {...state, cards: resetCards}
+        }
+        return {...state, cards: cards}
       }
     case 'ADD_GUESS':
       return {...state, game: {guesses: state.game.guesses + 1, matches: state.game.matches}}
