@@ -7,15 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux';
 import Store from './store';
 
-import shuffleArray from './utils/shuffle';
-
-function generateCards() {
-  let cards = ['sun-o', 'tree', 'leaf', 'key', 'globe', 'flash', 'anchor', 'camera-retro'].reduce((result, current) => {
-    return result.concat([{icon: current, selected: false, matched: false}, {icon: current, selected: false, matched: false}]);
-  }, []);
-
-  return shuffleArray(cards)
-}
+import generateCards from './utils/generateCards';
 
 const initialState = {
   cards: generateCards(),
