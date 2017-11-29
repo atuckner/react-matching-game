@@ -36,10 +36,6 @@
   position: absolute;
   right: 0;
   left: 0;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
 }
 
 .Card-icon-show {
