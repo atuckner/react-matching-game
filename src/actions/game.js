@@ -5,14 +5,14 @@ export const selectCard = (card) => {
   }
 }
 
-export const resetSelectedCards = () => {
-  return {
-    type: 'RESET_SELECTED_CARDS'
-  }
-}
-
 export const addGuess = () => {
   return {
     type: 'ADD_GUESS'
+  }
+}
+
+export const restartGame = () => {
+  return {
+    type: 'RESTART_GAME'
   }
 }

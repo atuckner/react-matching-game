@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Board.css';
 import Card from './Card';
 
 class Board extends React.Component {
@@ -19,8 +20,6 @@ class Board extends React.Component {
   render() {
     return (
       <div>
-        <h2>Guesses: {this.props.game.guesses}</h2>
-        <h2>Matches: {this.props.game.matches}</h2>
         <div>
           <div>
             {this.renderCard(0)}
@@ -47,6 +46,9 @@ class Board extends React.Component {
             {this.renderCard(15)}
           </div>
         </div>
+        <h2>Guesses: {this.props.game.guesses}</h2>
+        <h2>Matches: {this.props.game.matches}</h2>
+        <button className={'Board-btn '} onClick={(e) => {this.props.restartGame()}}>Play Again</button>
       </div>
     )
   }

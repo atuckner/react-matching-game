@@ -1,0 +1,16 @@
+.Board-btn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #a1a1a1;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.Board-btn:hover {
+  background: #b5b5b5;
+  text-decoration: none;
+}
