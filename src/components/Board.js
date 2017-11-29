@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Board.css';
+import '../styles/Board.css';
 import Card from './Card';
 
 class Board extends React.Component {

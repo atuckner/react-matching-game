@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Card.css'
+import '../styles/Card.css'
 import logo from '../logo.svg';
 import FontAwesome from 'react-fontawesome';
 
