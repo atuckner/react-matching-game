@@ -7,12 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux';
 import Store from './store';
 
-import generateCards from './utils/generateCards';
-
-const initialState = {
-  cards: generateCards(),
-  game: {guesses: 0, matches: 0}
-};
+import initialState from './initialState';
 
 const AppStore = Store(initialState);
 

@@ -1,4 +1,4 @@
-import generateCards from '../utils/generateCards';
+import initialState from '../initialState';
 
 export default(state=null, payload) => {
   switch(payload.type) {
@@ -57,11 +57,6 @@ export default(state=null, payload) => {
     case 'ADD_GUESS':
       return {...state, game: {guesses: state.game.guesses + 1, matches: state.game.matches}};
     case 'RESTART_GAME':
-      const initialState = {
-        cards: generateCards(),
-        game: {guesses: 0, matches: 0}
-      };
-
       return initialState;
     default:
       return state;
