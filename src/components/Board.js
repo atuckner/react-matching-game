@@ -46,7 +46,7 @@ class Board extends React.Component {
             {this.renderCard(15)}
           </div>
         </div>
-        <h2>Guesses: {this.props.game.guesses}</h2>
+        <h2>Guesses: {Math.floor(this.props.game.guesses/2)}</h2>
         <h2>Matches: {this.props.game.matches}</h2>
         <button className={'Board-btn '} onClick={(e) => {this.props.restartGame()}}>Play Again</button>
       </div>
