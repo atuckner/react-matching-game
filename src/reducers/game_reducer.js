@@ -22,15 +22,19 @@ export default(state=null, payload) => {
       }).length > 0;
 
       if (match) {
-        const updatedAttributes = {selected: false, matched: true};
+        const matchedAttributes = {selected: false, matched: true};
+        const updatedAttributes = {selected: false};
         cards = state.cards.map((item, index) => {
           if (item.icon !== updatedCard.icon) {
-            return item;
+            return {
+              ...item,
+              ...updatedAttributes
+            };
           }
 
           return {
             ...item,
-            ...updatedAttributes
+            ...matchedAttributes
           };
         });
         return {...state, game: {guesses: state.game.guesses, matches: state.game.matches + 1}, cards: cards};
