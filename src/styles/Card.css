@@ -14,6 +14,7 @@
 .Card-selected {
   background: aliceblue;
   border: 3px solid #e1e9f1;
+  pointer-events: none;
 }
 
 .Card-unselected {
@@ -24,6 +25,7 @@
 .Card-matched {
   background: #fffdf0;
   border: 3px solid #f1f1e1;
+  pointer-events: none;
 }
 
 .Card:hover {
