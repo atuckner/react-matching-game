@@ -5,7 +5,7 @@ function generateCards() {
     return result.concat([{icon: current, selected: false, matched: false}, {icon: current, selected: false, matched: false}]);
   }, []);
 
-  return shuffleArray(cards)
+  return shuffleArray(cards);
 }
 
 export default generateCards;

@@ -4,7 +4,7 @@ import Card from './Card';
 
 class Board extends React.Component {
   renderCard(i) {
-    const card = this.props.cards[i]
+    const card = this.props.cards[i];
     return (
       <Card
         value={i}
@@ -50,8 +50,8 @@ class Board extends React.Component {
         <h2>Matches: {this.props.game.matches}</h2>
         <button className={'Board-btn '} onClick={(e) => {this.props.restartGame()}}>Play Again</button>
       </div>
-    )
+    );
   }
 }
 
-export default Board
+export default Board;
