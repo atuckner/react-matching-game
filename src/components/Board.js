@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../styles/Board.css';
 import Card from './Card';
 
-class Board extends React.Component {
+export class Board extends React.Component {
   renderCard(i) {
     const card = this.props.cards[i];
     return (

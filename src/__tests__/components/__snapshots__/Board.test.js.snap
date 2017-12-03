@@ -1,0 +1,1710 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the Board 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Board
+    cards={
+        Array [
+            Object {
+              "icon": "camera-retro",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "flash",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "flash",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "sun-o",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "key",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "globe",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "tree",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "camera-retro",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "anchor",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "key",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "leaf",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "sun-o",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "leaf",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "anchor",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "tree",
+              "matched": false,
+              "selected": false,
+            },
+            Object {
+              "icon": "globe",
+              "matched": false,
+              "selected": false,
+            },
+          ]
+    }
+    game={
+        Object {
+            "guesses": 0,
+            "matches": 0,
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <div>
+                    <Card
+                              addGuess={undefined}
+                              icon="camera-retro"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={0}
+                    />
+                    <Card
+                              addGuess={undefined}
+                              icon="flash"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={1}
+                    />
+                    <Card
+                              addGuess={undefined}
+                              icon="flash"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={2}
+                    />
+                    <Card
+                              addGuess={undefined}
+                              icon="sun-o"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={3}
+                    />
+          </div>
+          <div>
+                    <Card
+                              addGuess={undefined}
+                              icon="key"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={4}
+                    />
+                    <Card
+                              addGuess={undefined}
+                              icon="globe"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={5}
+                    />
+                    <Card
+                              addGuess={undefined}
+                              icon="tree"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={6}
+                    />
+                    <Card
+                              addGuess={undefined}
+                              icon="camera-retro"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={7}
+                    />
+          </div>
+          <div>
+                    <Card
+                              addGuess={undefined}
+                              icon="anchor"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={8}
+                    />
+                    <Card
+                              addGuess={undefined}
+                              icon="key"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={9}
+                    />
+                    <Card
+                              addGuess={undefined}
+                              icon="leaf"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={10}
+                    />
+                    <Card
+                              addGuess={undefined}
+                              icon="sun-o"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={11}
+                    />
+          </div>
+          <div>
+                    <Card
+                              addGuess={undefined}
+                              icon="leaf"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={12}
+                    />
+                    <Card
+                              addGuess={undefined}
+                              icon="anchor"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={13}
+                    />
+                    <Card
+                              addGuess={undefined}
+                              icon="tree"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={14}
+                    />
+                    <Card
+                              addGuess={undefined}
+                              icon="globe"
+                              matched={false}
+                              selectCard={undefined}
+                              selected={false}
+                              value={15}
+                    />
+          </div>
+</div>,
+        <h2>
+          Guesses: 
+          0
+</h2>,
+        <h2>
+          Matches: 
+          0
+</h2>,
+        <button
+          className="Board-btn "
+          onClick={[Function]}
+>
+          Play Again
+</button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              <Card
+                            addGuess={undefined}
+                            icon="camera-retro"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={0}
+              />
+              <Card
+                            addGuess={undefined}
+                            icon="flash"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={1}
+              />
+              <Card
+                            addGuess={undefined}
+                            icon="flash"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={2}
+              />
+              <Card
+                            addGuess={undefined}
+                            icon="sun-o"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={3}
+              />
+</div>,
+            <div>
+              <Card
+                            addGuess={undefined}
+                            icon="key"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={4}
+              />
+              <Card
+                            addGuess={undefined}
+                            icon="globe"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={5}
+              />
+              <Card
+                            addGuess={undefined}
+                            icon="tree"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={6}
+              />
+              <Card
+                            addGuess={undefined}
+                            icon="camera-retro"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={7}
+              />
+</div>,
+            <div>
+              <Card
+                            addGuess={undefined}
+                            icon="anchor"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={8}
+              />
+              <Card
+                            addGuess={undefined}
+                            icon="key"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={9}
+              />
+              <Card
+                            addGuess={undefined}
+                            icon="leaf"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={10}
+              />
+              <Card
+                            addGuess={undefined}
+                            icon="sun-o"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={11}
+              />
+</div>,
+            <div>
+              <Card
+                            addGuess={undefined}
+                            icon="leaf"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={12}
+              />
+              <Card
+                            addGuess={undefined}
+                            icon="anchor"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={13}
+              />
+              <Card
+                            addGuess={undefined}
+                            icon="tree"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={14}
+              />
+              <Card
+                            addGuess={undefined}
+                            icon="globe"
+                            matched={false}
+                            selectCard={undefined}
+                            selected={false}
+                            value={15}
+              />
+</div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Card
+                  addGuess={undefined}
+                  icon="camera-retro"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={0}
+/>,
+                <Card
+                  addGuess={undefined}
+                  icon="flash"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={1}
+/>,
+                <Card
+                  addGuess={undefined}
+                  icon="flash"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={2}
+/>,
+                <Card
+                  addGuess={undefined}
+                  icon="sun-o"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={3}
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "camera-retro",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 0,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "flash",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 1,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "flash",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 2,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "sun-o",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 3,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Card
+                  addGuess={undefined}
+                  icon="key"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={4}
+/>,
+                <Card
+                  addGuess={undefined}
+                  icon="globe"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={5}
+/>,
+                <Card
+                  addGuess={undefined}
+                  icon="tree"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={6}
+/>,
+                <Card
+                  addGuess={undefined}
+                  icon="camera-retro"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={7}
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "key",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 4,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "globe",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 5,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "tree",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 6,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "camera-retro",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 7,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Card
+                  addGuess={undefined}
+                  icon="anchor"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={8}
+/>,
+                <Card
+                  addGuess={undefined}
+                  icon="key"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={9}
+/>,
+                <Card
+                  addGuess={undefined}
+                  icon="leaf"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={10}
+/>,
+                <Card
+                  addGuess={undefined}
+                  icon="sun-o"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={11}
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "anchor",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 8,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "key",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 9,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "leaf",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 10,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "sun-o",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 11,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Card
+                  addGuess={undefined}
+                  icon="leaf"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={12}
+/>,
+                <Card
+                  addGuess={undefined}
+                  icon="anchor"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={13}
+/>,
+                <Card
+                  addGuess={undefined}
+                  icon="tree"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={14}
+/>,
+                <Card
+                  addGuess={undefined}
+                  icon="globe"
+                  matched={false}
+                  selectCard={undefined}
+                  selected={false}
+                  value={15}
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "leaf",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 12,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "anchor",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 13,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "tree",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 14,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addGuess": undefined,
+                  "icon": "globe",
+                  "matched": false,
+                  "selectCard": undefined,
+                  "selected": false,
+                  "value": 15,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Guesses: ",
+            0,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Guesses: ",
+          0,
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Matches: ",
+            0,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Matches: ",
+          0,
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Play Again",
+          "className": "Board-btn ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Play Again",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <div>
+                        <Card
+                                    addGuess={undefined}
+                                    icon="camera-retro"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={0}
+                        />
+                        <Card
+                                    addGuess={undefined}
+                                    icon="flash"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={1}
+                        />
+                        <Card
+                                    addGuess={undefined}
+                                    icon="flash"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={2}
+                        />
+                        <Card
+                                    addGuess={undefined}
+                                    icon="sun-o"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={3}
+                        />
+            </div>
+            <div>
+                        <Card
+                                    addGuess={undefined}
+                                    icon="key"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={4}
+                        />
+                        <Card
+                                    addGuess={undefined}
+                                    icon="globe"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={5}
+                        />
+                        <Card
+                                    addGuess={undefined}
+                                    icon="tree"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={6}
+                        />
+                        <Card
+                                    addGuess={undefined}
+                                    icon="camera-retro"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={7}
+                        />
+            </div>
+            <div>
+                        <Card
+                                    addGuess={undefined}
+                                    icon="anchor"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={8}
+                        />
+                        <Card
+                                    addGuess={undefined}
+                                    icon="key"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={9}
+                        />
+                        <Card
+                                    addGuess={undefined}
+                                    icon="leaf"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={10}
+                        />
+                        <Card
+                                    addGuess={undefined}
+                                    icon="sun-o"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={11}
+                        />
+            </div>
+            <div>
+                        <Card
+                                    addGuess={undefined}
+                                    icon="leaf"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={12}
+                        />
+                        <Card
+                                    addGuess={undefined}
+                                    icon="anchor"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={13}
+                        />
+                        <Card
+                                    addGuess={undefined}
+                                    icon="tree"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={14}
+                        />
+                        <Card
+                                    addGuess={undefined}
+                                    icon="globe"
+                                    matched={false}
+                                    selectCard={undefined}
+                                    selected={false}
+                                    value={15}
+                        />
+            </div>
+</div>,
+          <h2>
+            Guesses: 
+            0
+</h2>,
+          <h2>
+            Matches: 
+            0
+</h2>,
+          <button
+            className="Board-btn "
+            onClick={[Function]}
+>
+            Play Again
+</button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div>
+                <Card
+                                addGuess={undefined}
+                                icon="camera-retro"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={0}
+                />
+                <Card
+                                addGuess={undefined}
+                                icon="flash"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={1}
+                />
+                <Card
+                                addGuess={undefined}
+                                icon="flash"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={2}
+                />
+                <Card
+                                addGuess={undefined}
+                                icon="sun-o"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={3}
+                />
+</div>,
+              <div>
+                <Card
+                                addGuess={undefined}
+                                icon="key"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={4}
+                />
+                <Card
+                                addGuess={undefined}
+                                icon="globe"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={5}
+                />
+                <Card
+                                addGuess={undefined}
+                                icon="tree"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={6}
+                />
+                <Card
+                                addGuess={undefined}
+                                icon="camera-retro"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={7}
+                />
+</div>,
+              <div>
+                <Card
+                                addGuess={undefined}
+                                icon="anchor"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={8}
+                />
+                <Card
+                                addGuess={undefined}
+                                icon="key"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={9}
+                />
+                <Card
+                                addGuess={undefined}
+                                icon="leaf"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={10}
+                />
+                <Card
+                                addGuess={undefined}
+                                icon="sun-o"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={11}
+                />
+</div>,
+              <div>
+                <Card
+                                addGuess={undefined}
+                                icon="leaf"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={12}
+                />
+                <Card
+                                addGuess={undefined}
+                                icon="anchor"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={13}
+                />
+                <Card
+                                addGuess={undefined}
+                                icon="tree"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={14}
+                />
+                <Card
+                                addGuess={undefined}
+                                icon="globe"
+                                matched={false}
+                                selectCard={undefined}
+                                selected={false}
+                                value={15}
+                />
+</div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Card
+                    addGuess={undefined}
+                    icon="camera-retro"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={0}
+/>,
+                  <Card
+                    addGuess={undefined}
+                    icon="flash"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={1}
+/>,
+                  <Card
+                    addGuess={undefined}
+                    icon="flash"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={2}
+/>,
+                  <Card
+                    addGuess={undefined}
+                    icon="sun-o"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={3}
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "camera-retro",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 0,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "flash",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 1,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "flash",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 2,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "sun-o",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 3,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Card
+                    addGuess={undefined}
+                    icon="key"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={4}
+/>,
+                  <Card
+                    addGuess={undefined}
+                    icon="globe"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={5}
+/>,
+                  <Card
+                    addGuess={undefined}
+                    icon="tree"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={6}
+/>,
+                  <Card
+                    addGuess={undefined}
+                    icon="camera-retro"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={7}
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "key",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 4,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "globe",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 5,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "tree",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 6,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "camera-retro",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 7,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Card
+                    addGuess={undefined}
+                    icon="anchor"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={8}
+/>,
+                  <Card
+                    addGuess={undefined}
+                    icon="key"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={9}
+/>,
+                  <Card
+                    addGuess={undefined}
+                    icon="leaf"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={10}
+/>,
+                  <Card
+                    addGuess={undefined}
+                    icon="sun-o"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={11}
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "anchor",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 8,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "key",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 9,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "leaf",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 10,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "sun-o",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 11,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Card
+                    addGuess={undefined}
+                    icon="leaf"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={12}
+/>,
+                  <Card
+                    addGuess={undefined}
+                    icon="anchor"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={13}
+/>,
+                  <Card
+                    addGuess={undefined}
+                    icon="tree"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={14}
+/>,
+                  <Card
+                    addGuess={undefined}
+                    icon="globe"
+                    matched={false}
+                    selectCard={undefined}
+                    selected={false}
+                    value={15}
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "leaf",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 12,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "anchor",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 13,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "tree",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 14,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addGuess": undefined,
+                    "icon": "globe",
+                    "matched": false,
+                    "selectCard": undefined,
+                    "selected": false,
+                    "value": 15,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Guesses: ",
+              0,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Guesses: ",
+            0,
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Matches: ",
+              0,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Matches: ",
+            0,
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Play Again",
+            "className": "Board-btn ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Play Again",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

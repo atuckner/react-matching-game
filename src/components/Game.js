@@ -7,7 +7,7 @@ import * as gameActions from '../actions/game';
 import Board from './Board';
 import shuffleArray from '../utils/shuffle';
 
-class Game extends React.Component {
+export class Game extends React.Component {
   render() {
     return(
       <Board selectCard={this.props.actions.selectCard} addGuess={this.props.actions.addGuess} restartGame={this.props.actions.restartGame} cards={this.props.cards} game={this.props.game}/>
