@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import '../styles/Card.css'
-import logo from '../logo.svg';
 import FontAwesome from 'react-fontawesome';
 
-export class Card extends React.Component {
+export class Card extends Component {
   onClick() {
     this.props.selectCard(this.props.value);
     this.props.addGuess();

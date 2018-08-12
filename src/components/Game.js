@@ -5,9 +5,8 @@ import { connect } from 'react-redux';
 import * as gameActions from '../actions/game';
 
 import Board from './Board';
-import shuffleArray from '../utils/shuffle';
 
-export class Game extends React.Component {
+export class Game extends Component {
   render() {
     return(
       <Board selectCard={this.props.actions.selectCard} addGuess={this.props.actions.addGuess} restartGame={this.props.actions.restartGame} cards={this.props.cards} game={this.props.game}/>
