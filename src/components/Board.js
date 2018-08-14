@@ -48,7 +48,7 @@ export class Board extends Component {
         </div>
         <h2>Guesses: {Math.floor(this.props.game.guesses/2)}</h2>
         <h2>Matches: {this.props.game.matches}</h2>
-        <button className={'Board-btn '} onClick={(e) => {this.props.restartGame()}}>Play Again</button>
+        <button className={'Board-btn '} onClick={(e) => { this.props.restartGame() }}>Play Again</button>
       </div>
     );
   }

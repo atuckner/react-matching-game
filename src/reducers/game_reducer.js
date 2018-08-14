@@ -1,4 +1,5 @@
 import initialState from '../initialState';
+const maxSelectedAmount = 2
 
 export default(state=null, payload) => {
   switch(payload.type) {
@@ -17,9 +18,9 @@ export default(state=null, payload) => {
         };
       });
 
-      const match = cards.filter((current, index) => {
+      const match = cards.some((current, index) => {
         return current.icon === updatedCard.icon && index !== payload.card && current.selected === true && updatedCard.selected === true;
-      }).length > 0;
+      });
 
       if (match) {
         const matchedAttributes = { selected: false, matched: true };
@@ -43,7 +44,7 @@ export default(state=null, payload) => {
           return current.selected === true;
         }).length;
 
-        if (amountSelected > 2) {
+        if (amountSelected > maxSelectedAmount) {
           const unselect = { selected: false };
           const resetCards = cards.map((item, index) => {
             if (item.selected === true && index !== payload.card) {
