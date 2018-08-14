@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import '../styles/Card.css'
 import FontAwesome from 'react-fontawesome';
 
