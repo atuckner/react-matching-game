@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import '../styles/Card.css'
 import FontAwesome from 'react-fontawesome';
 
-export class Card extends Component {
+export class Card extends PureComponent {
   onClick() {
     this.props.selectCard(this.props.value);
     this.props.addGuess();
