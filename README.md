@@ -1,13 +1,14 @@
-# Getting Started
+# React Matching Game [![CircleCI](https://circleci.com/gh/atuckner/react-matching-game/tree/master.svg?style=shield)](https://circleci.com/gh/atuckner/react-matching-game/?branch=master)
+### Getting Started
 * To install the dependencies run `yarn install`
 * In the project directory run `yarn start`
 
 Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
 
-# Testing
+### Testing
 * Run `yarn test`
 
-# Deployment
+### Deployment
 * Run `yarn run build`
 
 This builds the app for production to the `build` folder.
