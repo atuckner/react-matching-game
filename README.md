@@ -1,14 +1,14 @@
 # Getting Started
-* To install the dependencies run `npm install`
-* In the project directory run `npm start`
+* To install the dependencies run `yarn install`
+* In the project directory run `yarn start`
 
 Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
 
 # Testing
-* Run `npm test`
+* Run `yarn test`
 
 # Deployment
-* Run `npm run build`
+* Run `yarn run build`
 
 This builds the app for production to the `build` folder.
 
